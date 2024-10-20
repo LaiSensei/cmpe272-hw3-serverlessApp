@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#prompt {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#tags {
+  margin-bottom: 10px;
+}
+
+#generate {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#result {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#result img {
+  max-width: 100%;
+}
